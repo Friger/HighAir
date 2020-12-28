@@ -1,2 +1,2 @@
 # HighAir
-The source codes of HighAir: A Hierarchical Graph Neural Network-Based Air Quality Forecasting Method
+The source codes for HighAir: A Hierarchical Graph Neural Network-Based Air Quality Forecasting Method
