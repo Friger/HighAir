@@ -14,7 +14,7 @@ PRED_TIME = 12
 
 
 
-DATA_PATH = './data'
+DATA_PATH = './'
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 class trainDataset(Data.Dataset):
