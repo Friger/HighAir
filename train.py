@@ -225,11 +225,3 @@ for runtimes in range(args.run_times):
         print('jiaxing_rmse:', jiaxing_rmse_loss)
         print('shanghai_rmse:', shanghai_rmse_loss)
         print('suzhou_rmse:', suzhou_rmse_loss)
-
-        all_mae_loss = (jiaxing_mae_loss + shanghai_mae_loss +
-                        suzhou_mae_loss) / 3
-        all_rmse_loss = (jiaxing_rmse_loss + shanghai_rmse_loss +
-                         suzhou_rmse_loss) / 3
-
-        print('all_mae:', all_mae_loss)
-        print('all_rmse:', all_rmse_loss)
